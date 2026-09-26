@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>searching for that executive function ☠️☠️</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<main class="card">
+
+  <h1 id="projectName">
+    searching for that executive function ☠️☠️
+  </h1>
+
+  <p>Artist: RJ</p>
+
+  <div class="image">
+    <img
+      src="https://drive.google.com/uc?export=view&id=1KHsp39Gznfw3apVuroWx1-gG53jxIqN-"
+      alt="NFT">
+  </div>
+
+  <p>ID: 1</p>
+
+  <p>
+    Supply:
+    <strong id="supply">- / 100</strong>
+  </p>
+
+  <button id="connect">
+    CONNECT WALLET
+  </button>
+
+  <p id="wallet">Belum terhubung</p>
+
+  <hr>
+
+  <h2>PUBLIC MINT</h2>
+
+  <label>Quantity</label>
+
+  <input
+    id="quantity"
+    type="number"
+    min="1"
+    value="1">
+
+  <p>Price: FREE — 0 ETH + gas</p>
+
+  <button id="mint">
+    PUBLIC MINT
+  </button>
+
+  <hr>
+
+  <h2>CREATOR MINT</h2>
+
+  <input
+    id="recipient"
+    type="text"
+    placeholder="0x...">
+
+  <input
+    id="creatorQuantity"
+    type="number"
+    min="1"
+    value="1">
+
+  <button id="creatorMint">
+    MINT TO WALLET
+  </button>
+
+  <pre id="status"></pre>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.17.0/dist/ethers.umd.min.js"></script>
+<script src="./app.js"></script>
+
+</body>
+</html>
